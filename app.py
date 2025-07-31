@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # leer el archivo CSV
-car_data_df = pd.read_csv(r'C:\Users\dduss\Data_Analytics\Sprint_7\Proyecto\sprint7_project\vehicles_us.csv')
+car_data_df = pd.read_csv('vehicles_us.csv')
 
 # Encabezado del programa
 st.header('Dashboard de vehículos usados en EE. UU.')
